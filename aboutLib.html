@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h4>python libraris for machine learning</h4>
+    <ul>
+        <li>
+            numpy -> scientific computing</li>
+        <li> pandas -> data frames</li>
+        <li> matplotlib -> 2D plotting </li>
+        <li> scikit-learn ->
+            <ul>
+
+                <li>Algorithms</li>
+                <li>Pre-processing</li>
+                <li>Performance evaluation</li>
+                <li>And more ...</li>
+            </ul>
+        </li>
+    </ul>
+    <h4>machine learning workflow</h4>
+    <ul>
+        <li>
+            Asking the right question
+            <ul>
+                <li>
+                    <p>use the machine learning workflow to process and transform pima indian data to create a prediction model. This model must predict which people are likely to develop diabetes with 70% or greater accuracy</p>
+                </li>
+            </ul>
+        </li>
+        <li>
+            preparing data
+            <p> 50-80% of a ML project is spent getting, cleaning, and organizing data</p>
+            <ul>
+                <li>find the data we need
+                    <ul>
+                        <li>pima indian diabetes Data, originally from UCI
+                            <p>base on UCI data</p>
+                            <p>female patients at lease 21 years old</p>
+                            <p>768 patient observation rows</p>
+                            <p>10 columns</p>
+                            <p>9 feature columns and 1 class column</p>
+                        </li>
+                        <h3>Data rule #1</h3>
+                        <p>Closer the data is to what you are predicting, the better</p>
+                        <h3>Data rule #2</h3>
+                        <p>Data will never be in the format you need</p>
+                        <h3>Data rule #3</h3>
+                        <p>Accurately predicting rare events is difficult</p>
+                        <h3>Data rule #4</h3>
+                        <p>Track how you manipulate data</p>
+                    </ul>
+                </li>
+                <li>inspect and clean the data</li>
+                <li>explore the data</li>
+                <li> mold the data to tidy data
+                    <p>
+                        <h3>tidy Data</h3> tidy datasets are easy to manipulate, model and visualize, and have a specific structure:</p>
+                </li>
+            </ul>
+        </li>
+        <li>selecting the algorithm
+            <ul>
+                <h4>Role of Algorithm</h4>
+                <p>there are over 50 algorithms, but how do we decide?</p>
+                <li>
+                    Compare factors
+                    <p>Difference of opinions about which factors are important</p>
+                </li>
+                <li>algo decision factors</li>
+                <p>learning Type, result, Complexity Basic vs enhanced</p>
+                <ul>
+                    <li>Learning type</li>
+                    <p>this model must predict diabetes with 70% or greater accuracy, this reduce to 28 algo</p>
+                    <li>result type</li>
+                    <p>regression and classification, down to 20 algo</p>
+                    <li>complexity</li>
+                    <p>keep it simple. Eliminate "ensemble" algorithms, container algo, multiple child algo, boost perfomance. can be difficult to debug</p>
+                </ul>
+            </ul>
+            <p>Naive Bayes</p>
+            <p>logistic regression</p>
+            <p>Decision tree</p>
+            <p>let select Naive bays, simple easy to understand, fast up to 100x faster, stable to data changes</p>
+        </li>
+        <li>training the model
+            <p>scikit-learn package. Designed to work woth numpy, scipy and pandas
+                <ul>
+                    <h3>Toolset for training and evaluation tasks</h3>
+                    <li>
+                        Data splitting
+                    </li>
+                    <li>Pre-processing</li>
+                    <li>Feature selection</li>
+                    <li>Model training</li>
+                    <li>Model tuning ...</li>
+                    <p>common interface across algorithms</p>
+                </ul>
+                <li>
+                    split Data, training(70%) and testing (30%)
+                </li>
+            </p>
+        </li>
+        <li>test model on new data</li>
+    </ul>
+</body>
+
+</html>
