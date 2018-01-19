@@ -1,7 +1,7 @@
 # Diabetes-Prediction
 
 ## Overview
-<p>use the machine learning workflow to process and transform pima indian data to create a prediction model. This model must predict which people are likely to develop diabetes with 70% or greater accuracy</p>
+<p>use the machine learning workflow in the about file to process and transform pima indian data to create a prediction model. This model must predict which people are likely to develop diabetes with 70% or greater accuracy</p>
 
 
 ## Dependencies
